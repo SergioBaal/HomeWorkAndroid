@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HomeWorkAndroid</string>
+    <string name="Show_TEXT">Показываем текст.</string>
+    <string name="Put_TEXT">Введите ваш текст…</string>
+    <string name="Put_TEXT_TWO">Введите текст…</string>
+    <string name="Put_TEXT_NAME">Введите имя…</string>
+    <string name="Put_TEXT_PHONE">Введите телефон…</string>
+    <string name="Put_TEXT_NUMBER">Введите номер…</string>
+    <string name="Put_TEXT_PASSWORD">Введите пароль…</string>
+    <string name="Put_TEXT_EMAIL">Введите email…</string>
+    <string name="Button_ONE">Кнопка))</string>
+    <string name="Put_TEXT_DATE">Введите дату...</string>
+</resources>

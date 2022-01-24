@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/put_TEXT_TWO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/put_TEXT_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT_NAME"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/put_TEXT_PHONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT_PHONE"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/put_TEXT_NUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT_NUMBER"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/put_TEXT_PASSWORD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT_PASSWORD"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/put_TEXT_EMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT_EMAIL"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/put_TEXT_DATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/Put_TEXT_DATE"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minDate="01/24/2022"
+        android:layout_marginStart="15dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
